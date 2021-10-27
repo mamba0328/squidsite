@@ -10,7 +10,13 @@ header {
     margin-bottom: 100px;
     font-size: 18px;
     color: #F9FAF8;
+    align-items: center;
     
+}
+
+.logo { 
+height: 50px;
+width: auto;
 }
 
 .list { 
@@ -19,7 +25,7 @@ header {
     justify-content: flex-end;
     column-gap: 25px;
     list-style-type: none;
-    style
+    flex-wrap: nowrap;
 }
 
 .top{ 
@@ -46,7 +52,43 @@ header {
     color: floralwhite;
 }
 
-img { 
+.top img { 
     width: 500px;
     height: 200px;
+    border:3px solid white;
+    border-radius:3px;
+}
+
+.second { 
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.drawings div{ 
+    display: inline-block;
+    margin:0 25px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
+
+.circle { 
+    border-radius: 90px;
+}
+
+.desc { 
+    margin: 2em 0;
+    font-size: 18px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc div{
+    width: 150px;
+    height: auto;
 }
